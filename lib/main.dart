@@ -3,6 +3,7 @@
 
 import 'package:create_flutter_1/dummy_tabbar_screen/dummy_tabbar_screen.dart';
 import 'package:create_flutter_1/homepage.dart';
+import 'package:create_flutter_1/practice/understanding_constraints/constraints.dart';
 import 'package:flutter/material.dart';
 
 //import 'widgets/qc_details/qc_details_homepage.dart';
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DummyTabbarScreen(),
+      //home: DummyTabbarScreen(),
+      home: ConstraintsWidget(),
 
       // home: QcDetailsHomepage(),
       // home: MyHomePage(),
