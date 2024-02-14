@@ -23,7 +23,7 @@ class QcDetailsReminder extends StatelessWidget {
                     Expanded(
                       child: Center(
                         child: Text(
-                          'Reminder',
+                          'Warning',
                           style: TextStyle(color: Colors.white),
                         ),
                       ),
